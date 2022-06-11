@@ -7,7 +7,7 @@ Local setup
 
 ```
 git clone https://github.com/devcorehq/weatherapp-project-init-team.git
-cd weatherApp
+cd weatherapp-project-init-team
 docker build -t weatherapp:latest .
 docker run -it --rm -p 8080:80 weatherapp:latest
 ```
@@ -57,4 +57,4 @@ The deploy folder also has a file called `ldap-server.yml` which creates an ldap
 #### Improvement
 This readme will be improved to include how to dynamically create infrastrututre using Terraform and Github Action CI/CD
 
-Add more feature to the weatherApp such as news feature
+Add more feature to the weatherapp-project-init-team such as news feature
